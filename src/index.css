@@ -4,13 +4,16 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&display=swap');
 
 
-body {
+:root, body , html{
   margin: 0;
   font-family: 'Inter', sans-serif;
+  /* font-family: "Fraunces", serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
 code {
@@ -18,11 +21,20 @@ code {
     monospace;
 }
 
-p, h1{
+p, h1, div{
   margin: 0;
   padding: 0;
 }
 
 .section{
-  @apply lg:px-[344px] py-20 px-10
+  @apply lg:px-[320px] py-20 px-10
+}
+.font-Fraunces{
+  font-family: "Fraunces", serif; 
+}
+.big-text{
+  @apply text-[54px] font-bold leading-[64px] text-[#061818];
+}
+.introduction{
+ @apply text-[26px] leading-[40px] text-[#061818] font-Fraunces pt-6
 }

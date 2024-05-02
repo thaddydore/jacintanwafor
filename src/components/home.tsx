@@ -96,7 +96,7 @@ const Home = () => {
           </div>
 
           <div data-aos="fade-left">
-            <Link to={"/"}>
+            <Link to={"/heartfelt"}>
               <img src={HeartFelt} alt="heart-felt" />
               <h1 className="text-lg font-semibold text-[#061818]">Purchase and send gift cards</h1>
               <p className="text-[#454545] text-base">Heartfelt / 2022</p>

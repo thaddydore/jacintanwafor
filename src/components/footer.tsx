@@ -24,7 +24,7 @@ const moreWorks = [
 ];
 const Footer = () => {
   return (
-    <section className="bg-[#121212] py-40 xl:px-[364px] md:px-32 px-8">
+    <section className="bg-[#121212] py-40 xl:px-[300px] md:px-32 px-8">
       <p className="text-[23px] leading-[28px] text-[#454545]">more works</p>
 
       {moreWorks?.map((item, index) => (

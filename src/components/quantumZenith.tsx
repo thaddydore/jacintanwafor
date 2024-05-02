@@ -6,7 +6,7 @@ import Footer from "./footer";
 const QuantumZenith = () => {
   return (
     <section>
-      <Header />
+      {/* <Header /> */}
       <main>
         <section className="pt-28 pb-40">
           <div className="flex flex-col gap-10 text-center">
@@ -18,7 +18,7 @@ const QuantumZenith = () => {
 
           <QuantumZenith1 className="w-full px-[30px] py-0 my-0 h-full object-cover mt-16 mb-6 " />
 
-          <section className="xl:px-[364px] md:px-32 px-8">
+          <section className="xl:px-[300px] md:px-32 px-8">
             <p className="text-[#454545] text-base">
               {" "}
               <span className="font-semibold">Mobile design enhancement for zenith bank</span> is one of my projects as a product designer in{" "}
@@ -61,7 +61,7 @@ const QuantumZenith = () => {
           </section>
         </section>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </section>
   );
 };

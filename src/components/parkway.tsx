@@ -11,7 +11,7 @@ const ParkWay4 = require("../assets/png/parkway-4.png");
 const ParkWay = () => {
   return (
     <section>
-      <Header />
+      {/* <Header /> */}
       <main>
         <section className="pt-28 pb-40">
           <div className="flex flex-col gap-10 text-center">
@@ -23,7 +23,7 @@ const ParkWay = () => {
 
           <FintechImg className="w-full px-[30px] py-0 my-0 h-full object-cover mt-16 mb-6 " />
 
-          <section className="xl:px-[364px] md:px-32 px-8 ">
+          <section className="xl:px-[300px] md:px-32 px-8 ">
             <p className="text-[#454545] text-base">
               {" "}
               <span className="font-semibold">Financial app for Parkway Microfinance Bank</span> is one of my projects as a product designer in{" "}
@@ -67,7 +67,7 @@ const ParkWay = () => {
             </Link>
           </section>
 
-          <section className="xl:px-[364px] md:px-32 px-8 md:mt-56 mt-8">
+          <section className="xl:px-[300px] md:px-32 px-8 md:mt-56 mt-8">
             <div className="flex md:flex-row flex-col md:gap-20 gap-8 justify-center" >
               <img src={ParkWay1} className="max-w-[445px] h-full" alt="phone" data-aos="flip-left"/>
               <img src={ParkWay2} className="max-w-[445px]" alt="phone" data-aos="flip-right"/>
@@ -91,7 +91,7 @@ const ParkWay = () => {
           </section>
         </section>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </section>
   );
 };

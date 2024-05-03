@@ -24,22 +24,24 @@ const Payments = require("../assets/png/payment.png");
 const Home = () => {
 
   const [isScrolled, setIsScrolled] = useState(false);
-
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-    //   if (scrollTop > 50) { // Change 100 to the scroll position where you want the color change to occur
-    //     setIsScrolled(true);
-    //   } else {
-    //     setIsScrolled(false);
-    //   }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
   }, []);
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollTop = window.scrollY;
+  //   //   if (scrollTop > 50) { // Change 100 to the scroll position where you want the color change to occur
+  //   //     setIsScrolled(true);
+  //   //   } else {
+  //   //     setIsScrolled(false);
+  //   //   }
+  //   };
+
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
   // console.log(isScrolled);
   
@@ -62,7 +64,7 @@ const Home = () => {
 
         <section className="section flex flex-col gap-24" data-aos="fade-up">
           <div className=" flex md:flex-row flex-col md:gap-[90px] gap-4 items-center">
-            <Link to={"/"} data-aos="fade-up-right">
+            <Link to={"/"} data-aos="fade-up-right" className="hover:animate-pulse hover:skew-x-2">
               <img src={FlickWheel} alt="flick-wheel" />
               <h1 className="text-lg font-semibold text-[#061818]">Vehicle’s history with just VIN</h1>
               <p className="text-[#454545] text-base">Flickwheel / 2023</p>
@@ -154,7 +156,7 @@ const Home = () => {
         <section className="bg-[#141617] flex flex-col justify-center items-center pt-[197px] pb-24  h-full">
           <h1 className="text-white md:text-[114px] md:leading-[110px] font-bold relative text-[75px] leading-16">A little <br /><span className="text-[#E76295] underline decoration-8">about</span> me </h1>
           <div className="relative">
-   <Chisom className=""/>
+   <Chisom className="hover:scale-100 hover:translate-x-2 hover:-translate-y-2   md:transform-none"/>
           </div>
        
         </section>

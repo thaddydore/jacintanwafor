@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Footer from "./footer";
 import Header from "./header";
 import { ReactComponent as FintechImg } from "../assets/svg/fintech.svg";
+import { useEffect } from "react";
 
 const ParkWay1 = require("../assets/png/parkway-1.png");
 const ParkWay2 = require("../assets/png/parkway-2.png");
@@ -9,6 +10,9 @@ const ParkWay3 = require("../assets/png/parkway-3.png");
 const ParkWay4 = require("../assets/png/parkway-4.png");
 
 const ParkWay = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <section>
       {/* <Header /> */}

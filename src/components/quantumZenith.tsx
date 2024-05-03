@@ -2,8 +2,12 @@ import Header from "./header";
 import { ReactComponent as QuantumZenith1 } from "../assets/svg/quantum-zenith-1.svg";
 import { Link } from "react-router-dom";
 import Footer from "./footer";
+import { useEffect } from "react";
 
 const QuantumZenith = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <section>
       {/* <Header /> */}

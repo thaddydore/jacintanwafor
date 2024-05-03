@@ -1,15 +1,14 @@
 import { useEffect } from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Home from "./components/home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import QuantumZenith from "./components/quantumZenith";
-import ParkWay from "./components/parkway";
-import CIPM from "./components/cipm";
-import Heartfelt from "./components/heartfelt";
 import Layout from "./components/layout";
+import Home from "./screens/home";
+import Heartfelt from "./screens/heartfelt";
+import QuantumZenith from "./screens/quantumZenith";
+import ParkWay from "./screens/parkway";
+import CIPM from "./screens/cipm";
 
 function App() {
   useEffect(() => {
@@ -18,7 +17,7 @@ function App() {
   }, []);
   return (
     <Router>
-      <Routes>
+      <Routes >
         <Route path="/" element={<Home />} />
         <Route element={<Layout />}>
           <Route path="/quantum-zenith" element={<QuantumZenith />} />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./header";
 import { ReactComponent as CIPMBG } from "../assets/svg/cipmbg.svg";
 import { Link } from "react-router-dom";
@@ -42,6 +42,9 @@ const Users = [
 ];
 
 const CIPM = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <section className="overflow-x-hidden">
       {/* <Header /> */}

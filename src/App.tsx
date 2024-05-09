@@ -9,6 +9,15 @@ import Heartfelt from "./screens/heartfelt";
 import QuantumZenith from "./screens/quantumZenith";
 import ParkWay from "./screens/parkway";
 import CIPM from "./screens/cipm";
+import CyberPayMerchant from "./screens/cyberPayMerchant";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import IdentityPass from "./screens/identityPass";
+import SettlementAutomation from "./screens/settlementAutomation";
+import MealManager from "./screens/mealManager";
+import Vin from "./screens/vin";
 
 function App() {
   useEffect(() => {
@@ -24,7 +33,13 @@ function App() {
           <Route path="/parkway" element={<ParkWay />} />
           <Route path="/cipm" element={<CIPM />} />
           <Route path="/heartfelt" element={<Heartfelt />} />
+          <Route path="/cyberpay/identity-pass" element={<IdentityPass />} />
+          <Route path="/cyberpay/settlement-automation" element={<SettlementAutomation />} />
+          <Route path="/vin" element={<Vin />} />
+               
         </Route>
+   <Route path="/cyberpay/merchant" element={<CyberPayMerchant />} />
+   <Route path="/cyberpay/meal-manager" element={<MealManager />} />
       </Routes>
     </Router>
   );

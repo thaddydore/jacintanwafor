@@ -1,8 +1,5 @@
-import React, { useEffect } from "react";
-import Header from "./header";
+import { useEffect } from "react";
 import { ReactComponent as CIPMBG } from "../assets/svg/cipmbg.svg";
-import { Link } from "react-router-dom";
-import Footer from "./footer";
 import { ReactComponent as CIPM5 } from "../assets/svg/cipm-4.svg";
 import { ReactComponent as CIPM8 } from "../assets/svg/cipm-8.svg";
 import { ReactComponent as CIPM9 } from "../assets/svg/cipm-9.svg";
@@ -60,7 +57,10 @@ const CIPM = () => {
 
           <CIPMBG className="w-full px-[30px] py-0 my-0 h-full object-cover mt-16 mb-6 " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" />
 
-          <section className="xl:px-[300px] md:px-32 px-8 ">
+
+        </section>
+
+        <section className="xl:px-[300px] md:px-32 px-8 ">
             <p className="text-[#454545] text-base">
               {" "}
               <span className="font-semibold"> CIPM Membership Portal</span> is one of my projects as a product designer in <span className="font-semibold"> Cyberspace,</span>{" "}
@@ -280,7 +280,6 @@ const CIPM = () => {
               </p>
             </div>
           </section>
-        </section>
       </main>
       {/* <Footer /> */}
     </section>

@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import Footer from "./footer";
-import Header from "./header";
 import { ReactComponent as FintechImg } from "../assets/svg/fintech.svg";
 import { useEffect } from "react";
 
@@ -14,10 +12,9 @@ const ParkWay = () => {
     window.scrollTo(0, 0); // Scroll to the top when the component mounts
   }, []);
   return (
-    <section>
-      {/* <Header /> */}
+ 
       <main>
-        <section className="pt-28 pb-40">
+        <section className="pt-28">
           <div className="flex flex-col gap-10 text-center">
             <h1 className="big-text">
               Transfer funds and <br /> mobile top-ups
@@ -25,9 +22,13 @@ const ParkWay = () => {
             <p className="text-[#061818] text-sm font-medium">DESIGN FOR MOBILE APP - FINTECH</p>
           </div>
 
-          <FintechImg className="w-full px-[30px] py-0 my-0 h-full object-cover mt-16 mb-6 " />
+          <FintechImg className="w-full px-[30px] py-0 my-0 h-full object-cover mt-16 mb-6 "   data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"/>
 
-          <section className="xl:px-[300px] md:px-32 px-8 ">
+         
+        </section>
+        <section className="xl:px-[300px] md:px-32 px-8">
             <p className="text-[#454545] text-base">
               {" "}
               <span className="font-semibold">Financial app for Parkway Microfinance Bank</span> is one of my projects as a product designer in{" "}
@@ -71,7 +72,7 @@ const ParkWay = () => {
             </Link>
           </section>
 
-          <section className="xl:px-[300px] md:px-32 px-8 md:mt-56 mt-8">
+          <section className="section">
             <div className="flex md:flex-row flex-col md:gap-20 gap-8 justify-center" >
               <img src={ParkWay1} className="max-w-[445px] h-full" alt="phone" data-aos="flip-left"/>
               <img src={ParkWay2} className="max-w-[445px]" alt="phone" data-aos="flip-right"/>
@@ -93,10 +94,8 @@ const ParkWay = () => {
             
             </div>
           </section>
-        </section>
       </main>
-      {/* <Footer /> */}
-    </section>
+ 
   );
 };
 

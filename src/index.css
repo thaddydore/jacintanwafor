@@ -15,6 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   scroll-behavior: auto;
+  overflow-x: hidden;
 }
 
 code {
@@ -28,7 +29,7 @@ p, h1, div{
 }
 
 .section{
-  @apply lg:px-[300px] md:py-20 py-6 px-10
+  @apply lg:px-[300px] md:py-20 py-6 px-10 md:px-32
 }
 .font-Fraunces{
   font-family: "Fraunces", serif; 
@@ -36,8 +37,14 @@ p, h1, div{
 .big-text{
   @apply md:text-[54px] font-bold md:leading-[64px] text-[#061818] text-2xl;
 }
+.white-big-text{
+  @apply md:text-[54px] font-bold md:leading-[64px] text-[#DEE1E3]  text-2xl;
+}
 .introduction{
  @apply md:text-[26px] md:leading-[40px] text-[#061818] font-Fraunces pt-6 text-lg
+}
+.white-introduction{
+  @apply md:text-[26px] md:leading-[40px] text-[#C2C8CB] font-Fraunces pt-6 text-lg
 }
 .greenSemiboldText{
   @apply text-[#11643C] font-semibold text-xl;
@@ -50,4 +57,37 @@ p, h1, div{
 }
 .blackTextBase{
   @apply  text-base text-[#061818];
+}
+.textSemiboldFraunces{
+  @apply font-Fraunces md:text-[26px] md:leading-[52px] text-[#061818] font-semibold whitespace-normal text-lg;
+}
+.underTitle{
+  @apply md:text-xl text-lg text-[#454545] text-center pt-4
+}
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

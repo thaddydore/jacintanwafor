@@ -5,10 +5,22 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import AOS from "aos";
 import "aos/dist/aos.css";
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { CustomFlowbiteTheme } from 'flowbite-react';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+const customTheme: CustomFlowbiteTheme = {
+  button: {
+    color: {
+      primary: "bg-red-500 hover:bg-red-600",
+    },
+  },
+};
 root.render(
   <React.StrictMode>
     <App />

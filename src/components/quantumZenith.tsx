@@ -1,4 +1,3 @@
-import Header from "./header";
 import { ReactComponent as QuantumZenith1 } from "../assets/svg/quantum-zenith-1.svg";
 import { Link } from "react-router-dom";
 import Footer from "./footer";

@@ -68,9 +68,9 @@ const Home = () => {
               <h1 className="text-lg font-semibold text-[#061818]">Vehicle’s history with just VIN</h1>
               <p className="text-[#454545] text-base">Flickwheel / 2023</p>
             </Link>
-            <Link to={"/"} className="" data-aos="fade-up-left">
+            <Link to={"/auto-loan"} className="" data-aos="fade-up-left">
               <img src={VehicleRepairs} alt="vehicle-repairs" />
-              <h1 className="text-lg font-semibold text-[#061818]">Request for vehicle repairs</h1>
+              <h1 className="text-lg font-semibold text-[#061818]">Auto-loan for car repairs</h1>
               <p className="text-[#454545] text-base">Flickwheel / 2022</p>
             </Link>
           </div>

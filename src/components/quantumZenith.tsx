@@ -8,8 +8,7 @@ const QuantumZenith = () => {
     window.scrollTo(0, 0); // Scroll to the top when the component mounts
   }, []);
   return (
-    <section>
-      {/* <Header /> */}
+
       <main>
         <section className="pt-28 pb-40">
           <div className="flex flex-col gap-10 text-center">
@@ -64,8 +63,7 @@ const QuantumZenith = () => {
           </section>
         </section>
       </main>
-      {/* <Footer /> */}
-    </section>
+ 
   );
 };
 

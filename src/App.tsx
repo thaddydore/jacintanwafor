@@ -18,6 +18,7 @@ import IdentityPass from "./screens/identityPass";
 import SettlementAutomation from "./screens/settlementAutomation";
 import MealManager from "./screens/mealManager";
 import Vin from "./screens/vin";
+import AutoLoan from "./screens/autoLoan";
 
 function App() {
   useEffect(() => {
@@ -26,7 +27,7 @@ function App() {
   }, []);
   return (
     <Router>
-      <Routes >
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route element={<Layout />}>
           <Route path="/quantum-zenith" element={<QuantumZenith />} />
@@ -36,10 +37,10 @@ function App() {
           <Route path="/cyberpay/identity-pass" element={<IdentityPass />} />
           <Route path="/cyberpay/settlement-automation" element={<SettlementAutomation />} />
           <Route path="/vin" element={<Vin />} />
-               
+          <Route path="/auto-loan" element={<AutoLoan />} />
         </Route>
-   <Route path="/cyberpay/merchant" element={<CyberPayMerchant />} />
-   <Route path="/cyberpay/meal-manager" element={<MealManager />} />
+        <Route path="/cyberpay/merchant" element={<CyberPayMerchant />} />
+        <Route path="/cyberpay/meal-manager" element={<MealManager />} />
       </Routes>
     </Router>
   );

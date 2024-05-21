@@ -6,7 +6,7 @@ import { ReactComponent as Vin2 } from "../assets/svg/vin-2.svg";
 import { ReactComponent as Vin3 } from "../assets/svg/vin-3.svg";
 import { ReactComponent as Vin4 } from "../assets/svg/vin-4.svg";
 import { ReactComponent as Vin5 } from "../assets/svg/vin-5.svg";
-import { ReactComponent as Vin6 } from "../assets/svg/vin-6.svg";
+import { ReactComponent as Vin6 } from "../assets/svg/vin-6-compressed.svg";
 import { ReactComponent as Vin7 } from "../assets/svg/vin-7.svg";
 import { ReactComponent as Vin8 } from "../assets/svg/vin-8.svg";
 import { ReactComponent as Vin9 } from "../assets/svg/vin-9.svg";
@@ -18,19 +18,19 @@ import { ReactComponent as Vin14 } from "../assets/svg/vin-14.svg";
 import { ReactComponent as Vin15 } from "../assets/svg/vin-15.svg";
 import { ReactComponent as Vin16 } from "../assets/svg/vin-16.svg";
 import { ReactComponent as Vin17 } from "../assets/svg/vin-17.svg";
-import { ReactComponent as Vin18 } from "../assets/svg/vin-18.svg";
-import { ReactComponent as Vin19 } from "../assets/svg/vin-19.svg";
+import { ReactComponent as Vin18 } from "../assets/svg/vin-18-compressed.svg";
+import { ReactComponent as Vin19 } from "../assets/svg/vin-19-compressed.svg";
 import { ReactComponent as Vin20 } from "../assets/svg/vin-20.svg";
-import { ReactComponent as Vin21 } from "../assets/svg/vin-21.svg";
+import { ReactComponent as Vin21 } from "../assets/svg/vin-21-compressed.svg";
 import { ReactComponent as Vin22 } from "../assets/svg/vin-22.svg";
 import { ReactComponent as Vin23 } from "../assets/svg/vin-23.svg";
 import { ReactComponent as Vin24 } from "../assets/svg/vin-24.svg";
-import { ReactComponent as Vin25 } from "../assets/svg/vin-25.svg";
+import { ReactComponent as Vin25 } from "../assets/svg/vin-25-compressed.svg";
 import { ReactComponent as Vin26 } from "../assets/svg/vin-26.svg";
 import { ReactComponent as Vin27 } from "../assets/svg/vin-27.svg";
-import { ReactComponent as Vin28 } from "../assets/svg/vin-28.svg";
-import { ReactComponent as Vin29 } from "../assets/svg/vin-29.svg";
-import { ReactComponent as Vin30 } from "../assets/svg/vin-30.svg";
+import { ReactComponent as Vin28 } from "../assets/svg/vin-28-compressed.svg";
+import { ReactComponent as Vin29 } from "../assets/svg/vin-29-compressed.svg";
+import { ReactComponent as Vin30 } from "../assets/svg/vin-30-compressed.svg";
 import { ReactComponent as Arrow } from "../assets/svg/arrow.svg";
 import { ReactComponent as PinkBullet } from "../assets/svg/pink-bullet.svg";
 import { ReactComponent as BulbIcon } from "../assets/svg/bulb.svg";
@@ -84,7 +84,7 @@ const Vin = () => {
               </dd>
             </div>
             <div>
-              <h1 className="font-semibold text-base text-[#F22E5D]">MY ROLE</h1>
+              <h1 className="font-semibold text-base text-[#F22E5D]">OUTCOME</h1>
               <dd className="text-base text-[#454545] pt-4 flex gap-2 items-start">
                 <span>
                   <Bullet />

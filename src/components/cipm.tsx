@@ -1,11 +1,12 @@
 import { useEffect } from "react";
-import { ReactComponent as CIPMBG } from "../assets/svg/cipmbg.svg";
+// import { ReactComponent as CIPMBG } from "../assets/svg/cipmbg.svg";
+import { ReactComponent as CIPMBG } from "../assets/svg/cipmbg-compressed.svg";
 import { ReactComponent as CIPM5 } from "../assets/svg/cipm-4.svg";
-import { ReactComponent as CIPM8 } from "../assets/svg/cipm-8.svg";
-import { ReactComponent as CIPM9 } from "../assets/svg/cipm-9.svg";
-import { ReactComponent as CIPM10 } from "../assets/svg/cipm-10.svg";
-import { ReactComponent as CIPM11 } from "../assets/svg/cipm-11.svg";
-import { ReactComponent as CIPM12 } from "../assets/svg/cipm-12.svg";
+import { ReactComponent as CIPM8 } from "../assets/svg/cipm-8-compressed.svg";
+import { ReactComponent as CIPM9 } from "../assets/svg/cipm-9-compressed.svg";
+import { ReactComponent as CIPM10 } from "../assets/svg/cipm-10-compressed.svg";
+import { ReactComponent as CIPM11 } from "../assets/svg/cipm-11-compressed.svg";
+import { ReactComponent as CIPM12 } from "../assets/svg/cipm-12-compressed.svg";
 
 const CIPM1 = require("../assets/png/cipm-1.png");
 const CIPM2 = require("../assets/png/cipm-2.png");

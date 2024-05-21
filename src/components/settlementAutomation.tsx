@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import {ReactComponent as SettlementAutomationImg} from "../assets/svg/settlement-automation.svg"
+import {ReactComponent as SettlementAutomationImg} from "../assets/svg/settlement-automation-compressed.svg"
 import {ReactComponent as SettlementAutomation1} from "../assets/svg/settlement-1.svg"
 import {ReactComponent as SettlementAutomation2} from "../assets/svg/settlement-2.svg"
 import {ReactComponent as SettlementAutomation3} from "../assets/svg/settlement-3.svg"

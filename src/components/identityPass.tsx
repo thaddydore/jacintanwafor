@@ -5,8 +5,12 @@ import {ReactComponent as IdentityPass1} from "../assets/svg/identity-pass-1.svg
 import {ReactComponent as IdentityPass2} from "../assets/svg/identity-pass-2.svg"
 import {ReactComponent as IdentityPass3} from "../assets/svg/identity-pass-3.svg"
 import {ReactComponent as IdentityPass4} from "../assets/svg/identity-pass-4.svg"
+import { useEffect } from 'react'
 
 const IdentityPass = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <main>
    <section className="pt-28">

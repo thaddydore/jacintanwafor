@@ -22,9 +22,9 @@ import { ReactComponent as LandingPage3 } from "../assets/svg/heartfelt-12.svg";
 import { useEffect } from "react";
 
 const Heartfelt = () => {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0); // Scroll to the top when the component mounts
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <section>
       {/* <Header /> */}

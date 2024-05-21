@@ -29,7 +29,7 @@ p, h1, div{
 }
 
 .section{
-  @apply lg:px-[300px] md:py-20 py-6 px-10 md:px-32
+  @apply xl:px-[300px] md:py-20 py-6 px-10 md:px-32
 }
 .font-Fraunces{
   font-family: "Fraunces", serif; 
@@ -45,6 +45,9 @@ p, h1, div{
 }
 .white-introduction{
   @apply md:text-[26px] md:leading-[40px] text-[#C2C8CB] font-Fraunces pt-6 text-lg
+}
+.introductionwithoutpadding{
+  @apply md:text-[26px] md:leading-[40px] text-[#061818] font-Fraunces text-lg
 }
 .greenSemiboldText{
   @apply text-[#11643C] font-semibold text-xl;

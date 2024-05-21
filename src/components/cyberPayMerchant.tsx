@@ -7,8 +7,12 @@ import { ReactComponent as CyberPayMerchant3 } from "../assets/svg/cyberpay-merc
 import { ReactComponent as CyberPayMerchant4 } from "../assets/svg/cyberpay-merchant-5.svg";
 import { Link } from "react-router-dom";
 import CustomSwiper from "../custom/swiper/main";
+import { useEffect } from "react";
 
 const CyberPayMerchant = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <section className="bg-black">
       <Header color="black" />

@@ -7,8 +7,12 @@ import { ReactComponent as MealManager4 } from "../assets/svg/meal-manager-4.svg
 import CustomSwiper from '../custom/swiper/main';
 import { Link } from 'react-router-dom';
 import Footer from './footer';
+import { useEffect } from 'react';
 
 const MealManager = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <section className="bg-black">
     <Header color="black" />

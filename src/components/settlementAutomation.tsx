@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import {ReactComponent as SettlementAutomationImg} from "../assets/svg/settlement-automation.svg"
 import {ReactComponent as SettlementAutomation1} from "../assets/svg/settlement-1.svg"
@@ -8,6 +8,9 @@ import {ReactComponent as SettlementAutomation4} from "../assets/svg/settlement-
 import CustomSwiper from '../custom/swiper/main'
 
 const SettlementAutomation = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <main>
     <section className="pt-28">

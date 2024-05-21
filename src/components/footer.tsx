@@ -4,7 +4,7 @@ const moreWorks = [
   {
     name: "Flickwheel / 2023",
     details: "Vehicle’s history with just VIN",
-    link: "",
+    link: "/vin",
   },
   {
     name: "Flickwheel / 2022",
@@ -19,7 +19,7 @@ const moreWorks = [
   {
     name: "Parkway Microfinance Bank / 2023",
     details: "Transfer funds and mobile top-ups ",
-    link: "",
+    link: "/parkway",
   },
 ];
 const Footer = () => {
@@ -40,7 +40,7 @@ const Footer = () => {
 
       <div className="pt-32" data-aos='fade-up'>
       <p className="text-[23px] leading-[28px] text-[#454545] pb-[54px]">more works</p>
-      <Link to={'/'} className="text-[#919191] text-[20px] leading-[28px] font-bold ">
+      <Link to={'/cyberpay/merchant'} className="text-[#919191] text-[20px] leading-[28px] font-bold ">
       CyberPay 2022
           </Link>
    

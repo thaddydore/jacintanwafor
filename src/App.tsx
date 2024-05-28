@@ -19,6 +19,7 @@ import SettlementAutomation from "./screens/settlementAutomation";
 import MealManager from "./screens/mealManager";
 import Vin from "./screens/vin";
 import AutoLoan from "./screens/autoLoan";
+import About from "./screens/about";
 
 function App() {
   useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/cyberpay/settlement-automation" element={<SettlementAutomation />} />
           <Route path="/vin" element={<Vin />} />
           <Route path="/auto-loan" element={<AutoLoan />} />
+          <Route path="/about" element={<About />} />
         </Route>
         <Route path="/cyberpay/merchant" element={<CyberPayMerchant />} />
         <Route path="/cyberpay/meal-manager" element={<MealManager />} />

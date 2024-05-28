@@ -56,6 +56,9 @@ import { ReactComponent as KlarnaScreens } from "../assets/svg/klarna-screens.sv
 import { ReactComponent as Design1 } from "../assets/svg/design-1.svg";
 import { ReactComponent as Design2 } from "../assets/svg/design-2.svg";
 import { ReactComponent as Design3 } from "../assets/svg/design-3.svg";
+import { ReactComponent as Machine1 } from "../assets/svg/machine-1.svg";
+import { ReactComponent as Machine2 } from "../assets/svg/machine-2.svg";
+import { ReactComponent as Car } from "../assets/svg/car.svg";
 import PictureChangeOnScroll from "../custom/pictureChangeOnScroll/main";
 
 const Auto36 = require("../assets/png/auto-36.png");
@@ -500,7 +503,7 @@ const AutoLoan = () => {
       <section className="section bg-[#FAFAFA]">
         <div className=" mb-8">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Approaching a Solution</h2>
-          <p className="biggerFontFraunces">Fostering Progress through a Visual, Interactive, and immersive Experience</p>
+          <p className="biggerFontFraunces pt-4">Fostering Progress through a Visual, Interactive, and immersive Experience</p>
           <p className="text-base text-[#454545] pt-6">
             By incorporating gamification techniques, such as challenges, rewards, achievements, and interactive features, the app encourages users to actively participate in their
             vehicle repair journey.
@@ -513,24 +516,58 @@ const AutoLoan = () => {
 
       <section className="xl:px-[284px] px-10 md:px-32 w-full bg-[#FAFAFA]">
         <h1 className="introduction font-bold text-center">Design Goals</h1>
-        <div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5 md:mt-11 mt-4">
+        <div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5 md:mt-11 mt-4 items-start">
           <div className="flex flex-col gap-6">
             <Design1 className="w-full h-full" />
             <div className="border-l-8 border-[#F2F2F2] ps-5 ">
-            <h1 className="introduction font-bold">Visual</h1>
+              <h1 className="introductionwithoutpadding font-bold">Visual</h1>
 
-              <p className="text-base text-[#454545] ">
-                VIN Check now offers increased global accessibility, allowing users from around the world to easily request and access the service.
+              <p className="text-base text-[#454545] pt-4">
+                Leverage on visually engaging elements, such as interactive graphics, animations, and intuitive user interfaces, to guide users through the vehicle repair process.
               </p>
             </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-6">
             <Design2 className="w-full h-full" />
+            <div className="border-l-8 border-[#F2F2F2] ps-5 ">
+              <h1 className="introductionwithoutpadding font-bold">Coherent</h1>
+
+              <p className="text-base text-[#454545] pt-4">
+                Flickwheel strives for consistency in visual design, user interface, and interaction patterns throughout the entire repair process.
+              </p>
+            </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-6">
             <Design3 className="w-full h-full" />
+            <div className="border-l-8 border-[#F2F2F2] ps-5 ">
+              <h1 className="introductionwithoutpadding font-bold">Simple</h1>
+
+              <p className="text-base text-[#454545] pt-4">
+                We aim to make vehicle repairs accessible to users of all skill levels. To enable users engage in the repair process confidently and progress towards their repair
+                goals.
+              </p>
+            </div>
           </div>
         </div>
+      </section>
+
+      <section className="section bg-[#FAFAFA]">
+        <div className="flex justify-center md:gap-24 gap-5 items-center">
+          <div className="flex flex-col md:gap-20 gap-4 items-center">
+            <Machine1 className="w-full h-full" />
+            <p className="md:text-[28px] text-sm font-Fraunces text-[#454545]">1 day of goal (vehicle repair)</p>
+          </div>
+          <div className="flex flex-col md:gap-16 gap-4 items-center">
+            <Machine2 className="w-full h-full" />
+            <p className="md:text-[28px] text-sm font-Fraunces text-[#454545]">3 months of goals (routine)</p>
+          </div>
+        </div>
+
+<div className="w-full text-center flex justify-center flex-col mt-20 items-center gap-10" data-aos="fade-right">
+ <h1 className="text-center introductionwithoutpadding font-bold max-w-[313px]"> Eventually, a whole healthy vehicle</h1>
+ <Car className="w-full h-full"/>
+</div>
+       
       </section>
     </main>
   );

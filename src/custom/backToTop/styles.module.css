@@ -1,0 +1,17 @@
+.back_to_top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+  }
+  
+  .back_to_top button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .back_to_top button:hover {
+     /* Customize hover state */
+  }
+  

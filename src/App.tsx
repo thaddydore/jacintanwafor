@@ -20,6 +20,7 @@ import MealManager from "./screens/mealManager";
 import Vin from "./screens/vin";
 import AutoLoan from "./screens/autoLoan";
 import About from "./screens/about";
+import BackToTopButton from "./custom/backToTop/backToTopButton";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
   }, []);
   return (
     <Router>
+      <div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route element={<Layout />}>
@@ -44,6 +46,8 @@ function App() {
         <Route path="/cyberpay/merchant" element={<CyberPayMerchant />} />
         <Route path="/cyberpay/meal-manager" element={<MealManager />} />
       </Routes>
+      </div>
+      <BackToTopButton />
     </Router>
   );
 }

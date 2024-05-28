@@ -23,7 +23,7 @@ const experiences = [
 const Resume = () => {
   return (
     <main>
-      <section className="section flex md:flex-row flex-col md:gap-28 gap-8">
+      <section className="section flex md:flex-row flex-col md:gap-20 gap-8">
         <div className="md:w-1/2">
           <Chisom2 className="w-full h-full" />
         </div>

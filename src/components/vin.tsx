@@ -304,55 +304,55 @@ const Vin = () => {
           </h1>
           <div className="grid grid-cols-4 md:mt-16 mt-8 md:gap-20 gap-5">
             <div>
-              <h1 className="flex items-center md:text-base text-[12px] font-bold">
+              <h1 className="flex items-center md:text-base text-xs font-bold">
                 <span>
                   <PinkBullet />
                 </span>{" "}
                 Actor
               </h1>
-              <p className="md:pt-4 pt-2 md:text-base text-[12px]">As a vehicle owner,</p>
+              <p className="md:pt-4 pt-2 md:text-base text-xs">As a vehicle owner,</p>
             </div>
             <div>
-              <h1 className="flex items-center md:text-base text-[12px] font-bold">
+              <h1 className="flex items-center md:text-base text-xs font-bold">
                 <span>
                   <PinkBullet />
                 </span>{" "}
                 Situation
               </h1>
-              <p className="md:pt-4 pt-2 md:text-base text-[12px]">When I need to purchase a new and good vehicle</p>
+              <p className="md:pt-4 pt-2 md:text-base text-xs">When I need to purchase a new and good vehicle</p>
             </div>
             <div>
-              <h1 className="flex items-center md:text-base text-[12px] font-bold">
+              <h1 className="flex items-center md:text-base text-xs font-bold">
                 <span>
                   <PinkBullet />
                 </span>{" "}
                 Motivation
               </h1>
-              <p className="md:pt-4 pt-2 md:text-base text-[12px]">I want to legally own multiple vehicles for my business</p>
+              <p className="md:pt-4 pt-2 md:text-base text-xs">I want to legally own multiple vehicles for my business</p>
             </div>
             <div>
-              <h1 className="flex items-center md:text-base text-[12px] font-bold">
+              <h1 className="flex items-center md:text-base text-xs font-bold">
                 <span>
                   <PinkBullet />
                 </span>{" "}
                 Outcome
               </h1>
-              <p className="md:pt-4 pt-2 md:text-base text-[12px]">so I can avoid stolen and manipulated vehicles</p>
+              <p className="md:pt-4 pt-2 md:text-base text-xs">so I can avoid stolen and manipulated vehicles</p>
             </div>
           </div>
 
           <div className="grid grid-cols-4 md:mt-10 mt-6 md:gap-20 gap-5">
             <div>
-              <p className="md:pt-4 pt-2 md:text-base text-[12px]">As an auto - technician</p>
+              <p className="md:pt-4 pt-2 md:text-base text-xs">As an auto - technician</p>
             </div>
             <div>
-              <p className="md:pt-4 pt-2 md:text-base text-[12px]">When I need to maintain and repair my customer’s vehicle</p>
+              <p className="md:pt-4 pt-2 md:text-base text-xs">When I need to maintain and repair my customer’s vehicle</p>
             </div>
             <div>
-              <p className="md:pt-4 pt-2 md:text-base text-[12px]">To easily repair vehicles with compatible parts and low cost. </p>
+              <p className="md:pt-4 pt-2 md:text-base text-xs">To easily repair vehicles with compatible parts and low cost. </p>
             </div>
             <div>
-              <p className="md:pt-4 pt-2 md:text-base text-[12px]">So I make informed decisions in repairs and maintenance.</p>
+              <p className="md:pt-4 pt-2 md:text-base text-xs">So I make informed decisions in repairs and maintenance.</p>
             </div>
           </div>
         </div>

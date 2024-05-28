@@ -52,11 +52,11 @@ const Home = () => {
         <section className="section">
           <div className="relative">
             <Ace className="absolute -z-10 top-[90%] left-[6%]" />
-            <Digital className="absolute z-10 top-[30%] left-[67%]" />
-            <Spiral className="absolute top-[1%] left-[62%] -z-10" />
-            <Star className="absolute z-10 top-[3%] left-[8%]" />
-            <div>
-              <p className="lg:px-[90px] md:text-[114px] text-[75px] leading-16 md:leading-[110px] font-bold relative">Product designer, that delight users</p>
+            <Digital className="absolute z-10 top-[30%] left-[62%]" />
+            <Spiral className="absolute top-[1%] left-[55%] -z-10" />
+            <Star className="absolute z-10 top-[3%] left-[6%]" />
+            <div className="flex justify-center px-10">
+              <p className="md:text-[114px] text-[60px] md:leading-[110px] font-bold relative md:max-w-[780px]">Product designer, <br/>that  delight users</p>
             </div>
           </div>
         </section>
@@ -111,7 +111,7 @@ const Home = () => {
             <Spiral className="absolute bottom-[10%] left-[62%] z-10" />
             <Star className="absolute z-10 top-[3%] left-[7%]" />
             <div>
-              <p className="lg:px-[90px] md:text-[114px] md:leading-[110px] font-bold relative text-[75px] leading-16">
+              <p className="lg:px-[90px] md:text-[114px] md:leading-[110px] font-bold relative  text-[60px] ">
                 Made for <br /> a brand
               </p>
             </div>

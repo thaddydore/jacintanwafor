@@ -67,6 +67,9 @@ p, h1, div{
 .underTitle{
   @apply md:text-xl text-lg text-[#454545] text-center pt-4
 }
+.biggerFontFraunces{
+  @apply md:text-[66px] md:leading-[76px] text-3xl font-semibold font-Fraunces
+}
 
 
 

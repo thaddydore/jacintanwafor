@@ -1,6 +1,7 @@
 import { ReactComponent as Chisom2 } from "../assets/svg/chisom-2.svg";
 import CustomSwiper from "../custom/swiper/main";
 import { ReactComponent as Dash } from "../assets/svg/dash.svg";
+import { useEffect } from "react";
 
 const experiences = [
   {
@@ -21,6 +22,9 @@ const experiences = [
   },
 ];
 const Resume = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <main>
       <section className="section flex md:flex-row flex-col md:gap-20 gap-8">

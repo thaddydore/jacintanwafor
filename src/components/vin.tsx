@@ -39,9 +39,9 @@ import { ReactComponent as FoodIcon } from "../assets/svg/food.svg";
 import { useEffect } from "react";
 
 const Vin = () => {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0); // Scroll to the top when the component mounts
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <main className="bg-white">
       <section className="pt-28">

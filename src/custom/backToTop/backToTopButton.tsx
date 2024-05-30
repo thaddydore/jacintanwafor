@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import styles from "./styles.module.css" // Create a CSS file for styles
-import {ReactComponent as TopButton} from "../../assets/svg/scroll-to-top.svg"
+import React, { useState, useEffect } from "react";
+import styles from "./styles.module.css";
+import { ReactComponent as TopButton } from "../../assets/svg/scroll-to-top.svg";
 
 const BackToTopButton: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -14,31 +14,26 @@ const BackToTopButton: React.FC = () => {
       }
     };
 
-    window.addEventListener('scroll', toggleVisibility);
+    window.addEventListener("scroll", toggleVisibility);
 
     return () => {
-      window.removeEventListener('scroll', toggleVisibility);
+      window.removeEventListener("scroll", toggleVisibility);
     };
   }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
 
   return (
     <div className={styles.back_to_top}>
       {isVisible && (
-        <button
-        title='Go up'
-        //   type="primary"
-        //   shape="circle"
-        //   icon={<UpOutlined />}
-        //   size="large"
-          onClick={scrollToTop}
-        ><TopButton/></button>
+        <button title="Back to Top" onClick={scrollToTop}>
+          <TopButton />
+        </button>
       )}
     </div>
   );

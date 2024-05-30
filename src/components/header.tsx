@@ -74,10 +74,10 @@ const Header = ({ color }: Props) => {
         <Navbar.Link to="/" as={Link}  className={`${location.pathname === '/' ? 'underline decoration-2 decoration-[#73A3A9]' : ''}`}>
           Work
         </Navbar.Link>
-        <Navbar.Link as={Link} to="/about" className={`${location.pathname === '/about' ? 'underline decoration-2 decoration-[#73A3A9]' : ''}`}>
+        <Navbar.Link as={Link} to="/about"  className={`${location.pathname === '/about' ? 'underline decoration-2 decoration-[#73A3A9]' : ''}`}>
           About
         </Navbar.Link>
-        <Navbar.Link as={Link} to="/resume" className={`${location.pathname === '/resume' ? 'underline decoration-2 decoration-[#73A3A9]' : ''}`}>Resume</Navbar.Link>
+        <Navbar.Link as={Link} to="https://drive.google.com/file/d/14OvCGU2F2y7YWg7OsyTW-ZzZkI7k8i6X/view?usp=sharing" target='_blank' className={`${location.pathname === '/resume' ? 'underline decoration-2 decoration-[#73A3A9]' : ''}`}>Resume</Navbar.Link>
       
       </Navbar.Collapse>
     </Navbar>

@@ -60,6 +60,7 @@ import { ReactComponent as Machine1 } from "../assets/svg/machine-1.svg";
 import { ReactComponent as Machine2 } from "../assets/svg/machine-2.svg";
 import { ReactComponent as Car } from "../assets/svg/car.svg";
 import PictureChangeOnScroll from "../custom/pictureChangeOnScroll/main";
+import { useEffect } from "react";
 
 const Auto36 = require("../assets/png/auto-36.png");
 const Auto37 = require("../assets/png/auto-37.png");
@@ -69,6 +70,9 @@ const Avatar = require("../assets/png/avatar.png");
 const Avatar2 = require("../assets/png/avatar-2.png");
 
 const AutoLoan = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <main>
       <section className="pt-28">
@@ -246,7 +250,7 @@ const AutoLoan = () => {
             </div>
           </div>
 
-          <div className="h-96">
+          <div className="">
             <PictureChangeOnScroll
               pictures={[
                 <Auto12 className="w-full h-full" />,
@@ -260,7 +264,7 @@ const AutoLoan = () => {
           </div>
         </div>
 
-        <div className="md:mt-12 mt-6">
+        <div className="md:mt-12 mt-6 max-w-[726px]">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Support for emergency days</h2>
           <p className="introduction font-bold">Flexible repayment schedule and smart savings with wallet.</p>
           <p className="text-base text-[#454545] pt-6 font-medium">

@@ -44,7 +44,7 @@ const Vin = () => {
   }, []);
   return (
     <main className="bg-white">
-      <section className="pt-28">
+      <section className="md:pt-28 pt-10">
         <div className="flex flex-col gap-10 text-center">
           <h1 className="big-text">
             Vehicle’s history <br /> with just VIN
@@ -126,10 +126,10 @@ const Vin = () => {
       </section>
 
       <section className="xl:px-[200px] md:py-20 py-6 px-10 md:px-32 rounded-lg ">
-        <div className="bg-[#FAFAFA] xl:px-[100px] px-10 md:pt-20 pt-10 flex flex-col md:gap-40 gap-10">
+        <div className="bg-[#FAFAFA] xl:px-[100px] md:px-10 px-4 md:pt-20 pt-10 flex flex-col md:gap-40 gap-10">
           <div>
             <h1 className="text-center text-xl font-semibold text-[#F22E5D]">1. DESIGNING ACCESS TO VIN REPORT</h1>
-            <p className="introduction text-center">
+            <p className="introduction md:text-center">
               This web app redesign means vehicle owners can <span className="font-bold">access vehicle history report</span> from all countries across Nigeria and globally with
               just VIN. Before purchase, a sample report can be viewed to confirm that it meets the needs and requirements.{" "}
             </p>
@@ -400,7 +400,7 @@ const Vin = () => {
           </div>
         </div>
 
-        <div className="font-medium text-[#787878] text-sm flex md:flex-col flex-col-reverse gap-4" data-aos="fade-up" data-aos-duration="1500">
+        <div className="font-medium text-[#787878] text-sm flex md:flex-col flex-col gap-4 mt-4" data-aos="fade-up" data-aos-duration="1500">
           <Vin20 className="w-full h-full" />
           <p className="text-center introductionwithoutpadding">
             Having considered the user's requirements and potential solutions, we proceeded to develop hypotheses that will enable us to evaluate the effectiveness of our proposed
@@ -469,13 +469,13 @@ const Vin = () => {
           <div className="border-2 border-dashed border-[#4183E5] flex items-start py-8 md:px-14 px-5 w-full md:gap-10 gap-4 mt-10">
             <div>
               <Vin26 className="w-full h-full" />
-              <p className="text-base text-[#454545]"> Here is checkout screen designed for the mobile app.</p>
+              <p className="md:text-base text-xs text-[#454545]"> Here is checkout screen designed for the mobile app.</p>
             </div>
 
             <div>
               <Vin27 className="w-full h-full" />
 
-              <p className="text-base text-[#454545]">
+              <p className="md:text-base text-xs text-[#454545]">
                 {" "}
                 The summary on the left displays information about the vehicle's history, while the cost is displayed on the right for easy reference.
               </p>
@@ -494,7 +494,7 @@ const Vin = () => {
           </p>
         </div>
 
-        <div className="md:mt-16 mt-8 grid grid-cols-3 gap-6 items-start">
+        <div className="md:mt-16 mt-8 grid md:grid-cols-3 grid-cols-1 gap-6 items-start">
           <div className="h-full">
             <Vin28 className="w-full" />
             <div className="border-l-8 border-[#F2F2F2] ps-5 md:mt-9 mt-4">

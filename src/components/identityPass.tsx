@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import {ReactComponent as IdentityPassImg} from "../assets/svg/identity-pass.svg"
+import {ReactComponent as IdentityPassImg} from "../assets/svg/identity-pass-compressed.svg"
 import CustomSwiper from '../custom/swiper/main'
 import {ReactComponent as IdentityPass1} from "../assets/svg/identity-pass-1.svg"
 import {ReactComponent as IdentityPass2} from "../assets/svg/identity-pass-2.svg"

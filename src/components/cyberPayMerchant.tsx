@@ -31,7 +31,7 @@ const CyberPayMerchant = () => {
           </div>
 
           <CyberPayMerchantBg
-            className="w-full px-[30px] py-0 my-0 h-full object-cover mt-16 mb-6"
+            className="w-full px-[30px] py-0 my-0 h-full object-cover mt-16 mb-6 rounded-sm"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"

@@ -1,4 +1,4 @@
-import { ReactComponent as QuantumZenith1 } from "../assets/svg/quantum-zenith-1.svg";
+import { ReactComponent as QuantumZenith1 } from "../assets/svg/quantum-zenith-1-compressed.svg";
 import { Link } from "react-router-dom";
 import Footer from "./footer";
 import { useEffect } from "react";

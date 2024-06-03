@@ -8,9 +8,9 @@ const Loader = () => {
     //         <div className={styles.loader}></div>
     // </div>
     <TailSpin   // Type of spinner
-    height="80"
-    width="80"
-    color="#4fa94d"
+    height="100"
+    width="100"
+    color="#F22E5D"
     ariaLabel="tail-spin-loading"
     radius="1"
     

@@ -27,9 +27,9 @@ const Payments = require("../assets/png/payment.png");
 
 const Home = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  // useEffect(() => {
-  //   window.scrollTo(0, 0); // Scroll to the top when the component mounts
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   // useEffect(() => {
   //   const handleScroll = () => {
   //     const scrollTop = window.scrollY;

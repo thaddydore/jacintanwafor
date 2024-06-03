@@ -1,24 +1,24 @@
-import { ReactComponent as HeartFeltBg } from "../assets/svg/heartfelt.svg";
-import { ReactComponent as HeartFelt1 } from "../assets/svg/heartfelt-1.svg";
-import { ReactComponent as HeartFelt2 } from "../assets/svg/heartfelt-2.svg";
+import { ReactComponent as HeartFeltBg } from "../assets/svg/heartfelt-compressed.svg";
+import { ReactComponent as HeartFelt1 } from "../assets/svg/heartfelt-1-compressed.svg";
+import { ReactComponent as HeartFelt2 } from "../assets/svg/heartfelt-2-compressed.svg";
 import { ReactComponent as HeartFelt3 } from "../assets/svg/heartfelt-3.svg";
 import { ReactComponent as HeartFelt4 } from "../assets/svg/heartfelt-4-compressed.svg";
 import { ReactComponent as HeartFelt5 } from "../assets/svg/heartfelt-5.svg";
-import { ReactComponent as HeartFelt6 } from "../assets/svg/heartfelt-6.svg";
+import { ReactComponent as HeartFelt6 } from "../assets/svg/heartfelt-6-compressed.svg";
 import { ReactComponent as HeartFelt7 } from "../assets/svg/heartfelt-7.svg";
 import { ReactComponent as LocationIcon } from "../assets/svg/location.svg";
 import { ReactComponent as EaseIcon } from "../assets/svg/ease.svg";
 import { ReactComponent as GroupIcon } from "../assets/svg/group.svg";
-import { ReactComponent as Mary } from "../assets/svg/mary.svg";
+import { ReactComponent as Mary } from "../assets/svg/mary-compressed.svg";
 import { ReactComponent as Google } from "../assets/svg/google.svg";
 import { ReactComponent as Flexible } from "../assets/svg/flexible.svg";
 import { ReactComponent as Simple } from "../assets/svg/simple.svg";
 import { ReactComponent as Coherent } from "../assets/svg/coherent.svg";
 import { ReactComponent as SiteMapping } from "../assets/svg/heartfelt-8.svg";
-import { ReactComponent as InformationArchitecture } from "../assets/svg/heartfelt-9.svg";
+import { ReactComponent as InformationArchitecture } from "../assets/svg/heartfelt-9-compressed.svg";
 import { ReactComponent as LandingPage1 } from "../assets/svg/heartfelt-10-compressed.svg";
 import { ReactComponent as LandingPage2 } from "../assets/svg/heartfelt-11-compressed.svg";
-import { ReactComponent as LandingPage3 } from "../assets/svg/heartfelt-12.svg";
+import { ReactComponent as LandingPage3 } from "../assets/svg/heartfelt-12-compressed.svg";
 import { useEffect } from "react";
 
 const Heartfelt = () => {

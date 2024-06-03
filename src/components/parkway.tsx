@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ReactComponent as FintechImg } from "../assets/svg/fintech.svg";
+import { ReactComponent as FintechImg } from "../assets/svg/fintech-compressed.svg";
 import { useEffect } from "react";
 
 const ParkWay1 = require("../assets/png/parkway-1.png");

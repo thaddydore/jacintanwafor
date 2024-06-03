@@ -38,7 +38,7 @@ const CyberPayMerchant = () => {
           />
         </section>
 
-        <section className="xl:px-[300px] md:px-32 px-8">
+        <section className="screen300">
           <p className="text-[#C2C8CB] text-base">
             {" "}
             Creating the admin interface for CyberPay was one of my projects at Cyberspace. This platform helps merchants process payments{" "}

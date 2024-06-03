@@ -41,6 +41,28 @@ import { ReactComponent as Auto42 } from "../assets/svg/auto-42.svg";
 import { ReactComponent as Auto43 } from "../assets/svg/auto-43-compressed.svg";
 import { ReactComponent as Auto44 } from "../assets/svg/auto-44.svg";
 import { ReactComponent as Auto45 } from "../assets/svg/auto-45.svg";
+import { ReactComponent as Auto46 } from "../assets/svg/auto-46.svg";
+import { ReactComponent as Auto47 } from "../assets/svg/auto-47.svg";
+import { ReactComponent as Auto48 } from "../assets/svg/auto-48.svg";
+import { ReactComponent as Auto49 } from "../assets/svg/auto-49.svg";
+import { ReactComponent as Auto50 } from "../assets/svg/auto-50.svg";
+import { ReactComponent as Auto51 } from "../assets/svg/auto-51.svg";
+import { ReactComponent as Auto52 } from "../assets/svg/auto-52.svg";
+import { ReactComponent as Auto53 } from "../assets/svg/auto-53.svg";
+import { ReactComponent as Auto54 } from "../assets/svg/auto-54.svg";
+import { ReactComponent as Auto55 } from "../assets/svg/auto-55.svg";
+import { ReactComponent as Auto56 } from "../assets/svg/auto-56.svg";
+import { ReactComponent as Auto57 } from "../assets/svg/auto-57.svg";
+import { ReactComponent as Auto58 } from "../assets/svg/auto-58.svg";
+import { ReactComponent as Auto59 } from "../assets/svg/auto-59.svg";
+import { ReactComponent as Auto60 } from "../assets/svg/auto-60.svg";
+import { ReactComponent as Auto61 } from "../assets/svg/auto-61.svg";
+import { ReactComponent as Auto62 } from "../assets/svg/auto-62.svg";
+import { ReactComponent as Auto63 } from "../assets/svg/auto-63.svg";
+import { ReactComponent as Auto64 } from "../assets/svg/auto-64.svg";
+import { ReactComponent as Auto65 } from "../assets/svg/auto-65.svg";
+import { ReactComponent as Auto66 } from "../assets/svg/auto-66.svg";
+import { ReactComponent as Auto67 } from "../assets/svg/auto-67.svg";
 import { ReactComponent as Bullet } from "../assets/svg/bullet.svg";
 import { ReactComponent as Carbon } from "../assets/svg/carbon.svg";
 import { ReactComponent as Renmoney } from "../assets/svg/renmoney.svg";
@@ -72,9 +94,9 @@ const Avatar = require("../assets/png/avatar.png");
 const Avatar2 = require("../assets/png/avatar-2.png");
 
 const AutoLoan = () => {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0); // Scroll to the top when the component mounts
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  }, []);
   return (
     <main>
       <section className="pt-28">
@@ -89,7 +111,7 @@ const AutoLoan = () => {
         <AutoLoanBg className="w-full px-[30px] py-0 my-0 h-full object-cover mt-16 mb-6 " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" />
       </section>
 
-      <section className="xl:px-[300px] md:px-32 px-8">
+      <section className="screen300">
         <p className="text-[#454545] text-base">
           {" "}
           <span className="font-semibold">End to end design for vehicle repairs app</span> is one of my projects as a product designer in
@@ -105,7 +127,7 @@ const AutoLoan = () => {
           </dd>
         </div>
 
-        <div className="pt-28 flex md:flex-row md:gap-4 flex-col lg:gap-[70px] w-full pb-16">
+        <div className="md:pt-28 pt-10 flex md:flex-row gap-4 flex-col lg:gap-[70px] w-full pb-16">
           <div className="md:w-4/6 flex flex-col md:gap-10 gap-5 w-full">
             <div>
               <h1 className="font-semibold text-base text-[#F22E5D]">MY ROLE</h1>
@@ -119,7 +141,7 @@ const AutoLoan = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-10 md:w-2/6 w-full">
+          <div className="flex flex-col md:gap-10 gap-4 md:w-2/6 w-full">
             <div>
               <h1 className="font-semibold text-base text-[#F22E5D]">SCOPE</h1>
               <dd className="text-base text-[#454545] pt-4">1 lead Designer, Product Manger, a squad of developers.(remote)</dd>
@@ -150,7 +172,7 @@ const AutoLoan = () => {
         <div className="md:mt-12 mt-6">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Problem Discovery</h2>
           <p className="biggerFontFraunces pt-4 text-[#061818]">The high costs of vehicle repairs create significant challenges for people. </p>
-          <p className="text-base text-[#454545] pt-6">
+          <p className="textMediumBase">
             During early interviews with potential users (vehicle owners), we discovered significant challenges they face in maintaining a consistent vehicle maintenance routine
             and finding skilled auto technicians. The lack of access to skilled professionals often leads to higher costs in the long run and repeated occurrence of previously
             fixed faults. These financial burdens not only strain budgets but also cause stress and disruption in their daily lives
@@ -186,7 +208,7 @@ const AutoLoan = () => {
         </div>
 
         <div className="flex justify-center xl:gap-[162px] md:gap-8 gap-8 md:items-center md:py-40 py-10 md:flex-row flex-col-reverse">
-          <div className="h-96">
+          <div className="h-full">
             <PictureChangeOnScroll
               pictures={[
                 <Auto18 className="w-full h-full" />,
@@ -226,7 +248,7 @@ const AutoLoan = () => {
           </div>
         </div>
 
-        <div className="flex xl:gap-[162px] md:gap-8 gap-8 md:items-center md:my-40 my-48 md:flex-row flex-col h-full">
+        <div className="flex xl:gap-[162px] md:gap-8 gap-8 md:items-center md:my-40  md:flex-row flex-col h-full">
           <div>
             <h1 className="md:text-xl text-sm font-semibold text-[#F22E5D]">Stay informed, Stay in Control.</h1>
             <p className="introduction font-bold">Track the progress of your repairs from the comfort of your home.</p>
@@ -269,13 +291,13 @@ const AutoLoan = () => {
         <div className="md:mt-12 mt-6 max-w-[726px]">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Support for emergency days</h2>
           <p className="introduction font-bold max-w-[721px]">Flexible repayment schedule and smart savings with wallet.</p>
-          <p className="text-base text-[#454545] pt-6 font-medium">
+          <p className="textMediumBase font-medium">
             Flickwheel gives freedom to choose a repayment plan that aligns with your budget and financial capabilities, allowing a smooth and convenient repayment experience.
             Flickwheel also allows you to effortlessly save up gradually, putting aside funds for future or unexpected vehicle repairs.
           </p>
         </div>
 
-        <div className="flex md:flex-row flex-col md:gap-16 gap-4 h-full mb-40 md:mt-16 mt-8">
+        <div className="flex flex-row md:gap-16 gap-4 h-full md:mb-40 mb-10 md:mt-16 mt-8">
           <div className="">
             <PictureChangeOnScroll
               pictures={[
@@ -313,7 +335,7 @@ const AutoLoan = () => {
           <p className="introduction font-bold max-w-[721px]">
             Subject-matter research has revealed the impactful utilisation of the 'Hook' model to increase people’s need for vehicle repairs in forming habits.
           </p>
-          <p className="text-base text-[#454545] pt-6">
+          <p className="textMediumBase">
             Our journey began with the goal of creating an app that naturally engages and captivates users. To achieve this, we delved into the influential Hook Model, a
             behavioural design framework renowned for its ability to develop habit-forming products. This model provides a four-step process that empowers companies and products to
             craft experiences that cultivate user habits.
@@ -323,12 +345,12 @@ const AutoLoan = () => {
         <Auto35 className="w-full h-full" />
       </section>
 
-      <section className="xl:px-[224px] px-10 md:px-32 w-full">
+      <section className="xl:px-[224px] px-4 md:px-32 w-full">
         <div className="bg-[#FAFAFA] xl:px-[100px] md:px-8 px-4  md:py-32 py-8 w-full">
           <div className=" mb-8">
             <h2 className="text-xl font-semibold text-[#F22E5D]">Analysing Market & Competitors</h2>
             <p className="introduction font-bold max-w-[721px]">Competitive analysis revealed an indirect market competing on identical feature set.</p>
-            <p className="text-base text-[#454545] pt-6">
+            <p className="textMediumBase">
               Upon examining the leading players in the industry, we observed a common feature focus on Interest Rate within their apps. Recognising this, we used Interest Rate
               could serve as a key driver for habit formation. However, we also identified an opportunity to differentiate ourselves by taking a distinct approach.
             </p>
@@ -363,14 +385,14 @@ const AutoLoan = () => {
         <div className=" mb-8">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Validating our assumptions</h2>
           <p className="introduction font-bold">Interviews with 10+ participants and survey respondents shared the struggle of maintaining their vehicle</p>
-          <p className="text-base text-[#454545] pt-6">
+          <p className="textMediumBase">
             We conducted semi-structured interviews with target users to validate our initial findings and further understand how people currently repair and maintain their
             vehicles
           </p>
         </div>
       </section>
 
-      <section className="xl:px-[224px] px-10 md:px-32 w-full ">
+      <section className="xl:px-[224px] px-4 md:px-32 w-full ">
         <div className="grid grid-cols-4 md:gap-4 gap-4">
           <img src={Auto36} alt="gradient-img" className="w-full h-full" />
           <img src={Auto37} alt="gradient-img" className="w-full h-full" />
@@ -392,14 +414,14 @@ const AutoLoan = () => {
           <p className="introduction font-bold">
             The unpredictable nature of vehicle problems and fluctuating prices of vehicle parts make it difficult to determine fixed pricing for repairs.
           </p>
-          <p className="text-base text-[#454545] pt-6">
+          <p className="textMediumBase">
             Vehicle issues can vary in complexity and severity, making it challenging to anticipate the exact repairs needed and the corresponding costs involved. Additionally, the
             prices of vehicle parts are influenced by market factors such as supply and demand, availability, and economic conditions, leading to frequent price changes.
           </p>
         </div>
       </section>
 
-      <section className="xl:px-[224px] px-10 md:px-32 w-full ">
+      <section className="xl:px-[224px] px-4 md:px-32 w-full ">
         <Auto41 className="w-full h-full" />
       </section>
 
@@ -434,7 +456,7 @@ const AutoLoan = () => {
         </div>
       </section>
 
-      <section className="xl:px-[224px] px-10 md:px-32 w-full">
+      <section className="xl:px-[224px] px-4 md:px-32 w-full">
         <div className="md:px-20 md:py-20 px-4 py-10  bg-[#FAFAFA]">
           <div className=" mb-8">
             <h2 className="text-xl font-semibold text-[#F22E5D]">Defining Persona & Goals</h2>
@@ -476,14 +498,14 @@ const AutoLoan = () => {
         <div className=" mb-8">
           <h2 className="text-xl font-semibold text-[#F22E5D]">User Storyboarding</h2>
           <p className="introduction font-bold max-w-[721px]">Setting the persona in an ideal context scenario to define the essentials of our MVP.</p>
-          <p className="text-base text-[#454545] pt-6">
+          <p className="textMediumBase">
             Our main objective now is to identify the essential design requirements that need to be fulfilled to enable these ideal scenarios. These requirements will serve as the
             foundation for our idea generation phase.
           </p>
         </div>
       </section>
 
-      <section className="xl:px-[284px] px-10 md:px-32 w-full">
+      <section className="section2 w-full">
         <div className="md:px-20 md:py-20 px-5 py-5 bg-[#FAFAFA] border-[#D9D9D9] border rounded-md mb-20">
           <Auto42 className="w-full h-full" />
         </div>
@@ -493,14 +515,14 @@ const AutoLoan = () => {
         <div className=" mb-8">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Generating Storyboard Requirements through Ideation</h2>
           <p className="biggerFontFraunces">How can we facilitate the ideal solution scenario?</p>
-          <p className="text-base text-[#454545] pt-6">
+          <p className="textMediumBase">
             In order to enhance our generation phase, we have rephrased our design requirements into actionable statements that strike a balance between openness for multiple
             solutions and focus for clear direction.
           </p>
         </div>
       </section>
 
-      <section className="xl:px-[284px] px-10 md:px-32 w-full bg-[#FAFAFA]">
+      <section className="section2 bg-[#FAFAFA]">
         <div className="">
           <Auto43 className="w-full h-full" />
         </div>
@@ -510,7 +532,7 @@ const AutoLoan = () => {
         <div className=" mb-8">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Approaching a Solution</h2>
           <p className="biggerFontFraunces pt-4">Fostering Progress through a Visual, Interactive, and immersive Experience</p>
-          <p className="text-base text-[#454545] pt-6">
+          <p className="textMediumBase">
             By incorporating gamification techniques, such as challenges, rewards, achievements, and interactive features, the app encourages users to actively participate in their
             vehicle repair journey.
             <br /> <br />
@@ -520,7 +542,7 @@ const AutoLoan = () => {
         </div>
       </section>
 
-      <section className="xl:px-[284px] px-10 md:px-32 w-full bg-[#FAFAFA]">
+      <section className="section2 w-full bg-[#FAFAFA]">
         <h1 className="introduction font-bold text-center">Design Goals</h1>
         <div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5 md:mt-11 mt-4 items-start">
           <div className="flex flex-col gap-6">
@@ -579,31 +601,165 @@ const AutoLoan = () => {
         <div className=" mb-8">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Feature Prioritisation</h2>
           <p className="introduction font-bold max-w-[721px]">Resource limitations compelled us to prioritise features based on their impact and required effort.</p>
-          <p className="text-base text-[#454545] pt-6">
-          To accommodate a shorter timeframe and ensure technical feasibility, we divided our initial feature sets into three release stages. The first stage, which focused on the minimum viable product (MVP), prioritised features that required low effort but delivered high impact. This decision was made through a combination of an initial voting system, cross-discipline workshops, and continuous reference to our persona's pain points and characteristics.
+          <p className="textMediumBase">
+            To accommodate a shorter timeframe and ensure technical feasibility, we divided our initial feature sets into three release stages. The first stage, which focused on
+            the minimum viable product (MVP), prioritised features that required low effort but delivered high impact. This decision was made through a combination of an initial
+            voting system, cross-discipline workshops, and continuous reference to our persona's pain points and characteristics.
           </p>
         </div>
       </section>
 
-      <section className="xl:px-[284px] px-10 md:px-32 w-full">
-        <Auto44 className="w-full h-full"/>
-        </section>
+      <section className="section2 w-full">
+        <Auto44 className="w-full h-full" />
+      </section>
 
-        <section className="section">
+      <section className="section">
         <div className=" mb-8">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Technical Blueprint</h2>
           <p className="introduction font-bold max-w-[721px]">Creating user flow by putting our persona into consideration, in order to simplify steps and time.</p>
-          <p className="text-base text-[#454545] pt-6">
-          We carefully designed the user experience to prioritise our users' most important tasks, minimising the number of steps required to achieve their primary use cases. By understanding that our users are often multitasking and requesting for vehicle repairs, we strategically streamlined the app's interface, hiding secondary functions to ensure users can engage with the app efficiently and with minimal distractions.
+          <p className="textMediumBase">
+            We carefully designed the user experience to prioritise our users' most important tasks, minimising the number of steps required to achieve their primary use cases. By
+            understanding that our users are often multitasking and requesting for vehicle repairs, we strategically streamlined the app's interface, hiding secondary functions to
+            ensure users can engage with the app efficiently and with minimal distractions.
           </p>
         </div>
       </section>
 
-      <section className="xl:px-[284px] px-10 md:px-32 w-full">
-        <Auto45 className="w-full h-full"/>
-        <p className="text28">I want to able to request and track my vehicle repairs quickly</p>
-        </section>
+      <section className="section2 w-full">
+        <Auto45 className="w-full h-full" />
+        <p className="text28 my-8">I want to able to request and track my vehicle repairs quickly</p>
+        <Auto46 className="w-full h-full mb-6" />
+        <p className="text28 my-8">I want to be actively updated on my repair progress</p>
+        <Auto47 className="w-full h-full" />
+      </section>
 
+      <section className="section">
+        <div className=" mb-8">
+          <h2 className="text-xl font-semibold text-[#F22E5D]">Iterations based on user feedback</h2>
+          <p className="introduction font-bold max-w-[721px]">Iterative testing sessions influenced improvements in hierarchy and navigation.</p>
+          <p className="textMediumBase">
+            By closely observing the interactions of potential users with different scenarios and assessing their ability to achieve various goals, we gathered valuable insights.
+            Incorporating feedback from multiple rounds, we successfully reduced cognitive load for our users and improved the accessibility of key information at a higher level.
+          </p>
+        </div>
+      </section>
+
+      <section className="section2 w-full md:py-28 py-10">
+        <div className="flex md:flex-row flex-col-reverse md:items-center md:gap-10 gap-4 w-full">
+          <div className="flex justify-between md:w-1/2 h-full">
+            <div>
+              <p className="text-center text-base">Before</p>
+              <Auto48 className="w-full h-full" />
+            </div>
+            <div>
+              <p className="text-center text-base">After</p>
+              <Auto49 className="w-full h-full" />
+            </div>
+          </div>
+          <div className="md:w-1/2">
+            <h1 className="introduction font-bold">1. Simplified bottom navigation</h1>
+            <p className="textMediumBase font-medium">
+              Grouping secondary actions into a single action with expandable options. <br /> <br />
+              Prominently placing the primary action button at the bottom center, replacing the less visible floating button
+            </p>
+          </div>
+        </div>
+
+        <div className="flex md:flex-row flex-col md:items-center md:gap-10 gap-4 w-full md:mt-10">
+          <div className="md:w-1/2">
+            <h1 className="introduction font-bold">2. Enhancing user access to all key app products.</h1>
+            <p className="textMediumBase font-medium">
+              With the goal of improving user experience, we have enhanced the accessibility of all key app products.
+              <br />
+              <br />
+              Users now have convenient and streamlined access to a comprehensive range of features and functionalities within the app.
+            </p>
+          </div>
+          <div className="flex justify-between md:w-1/2">
+            <Auto50 className="w-full h-full" />
+          </div>
+        </div>
+
+        <div className="flex md:flex-row flex-col-reverse md:items-center md:gap-10 gap-4 w-full md:mt-10">
+          <div className="flex justify-between md:w-1/2 w-full h-full">
+            <Auto51 className="w-full h-full" />
+          </div>
+          <div className="md:w-1/2">
+            <h1 className="introduction font-bold">3. Redesign of accordions</h1>
+            <p className="textMediumBase font-medium">
+              The use of accordions can sometimes result in relevant sections being hidden when expanded
+              <br />
+              <br />
+              The redesign addresses this issue by providing a clear overview of all sections at a glance, eliminating the need to expand and collapse individual sections.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        className="section2 w-full
+      bg-[#FAFAFA] md:py-28 py-10"
+      >
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold text-[#F22E5D]">The final MVP product</h2>
+          <p className="introductionwithoutpadding font-bold max-w-[721px]">Onboarding + Sign Up</p>
+        </div>
+
+        <div className="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-4">
+          <Auto52 className="w-full h-full" />
+          <Auto53 className="w-full h-full" />
+          <Auto54 className="w-full h-full" />
+          <Auto55 className="w-full h-full" />
+        </div>
+
+        <div className="md:mt-24 mt-10">
+          <p className="introductionwithoutpadding font-bold max-w-[721px]">Request for Vehicle Repairs using auto - credit</p>
+          <div className="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-4 md:mt-11 mt-4">
+            <Auto56 className="w-full h-full" />
+            <Auto57 className="w-full h-full" />
+            <Auto58 className="w-full h-full" />
+            <Auto59 className="w-full h-full" />
+          </div>
+        </div>
+
+        <div className="md:mt-24 mt-10">
+          <p className="introductionwithoutpadding font-bold max-w-[721px]">Tracking the Progress of Repairs </p>
+          <div className="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-4 md:mt-11 mt-4">
+            <Auto60 className="w-full h-full" />
+            <Auto61 className="w-full h-full" />
+            <Auto62 className="w-full h-full" />
+            <Auto63 className="w-full h-full" />
+          </div>
+        </div>
+
+        <div className="md:mt-24 mt-10">
+          <p className="introductionwithoutpadding font-bold max-w-[721px]">Repay auto - credit</p>
+          <div className="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-4 md:mt-11 mt-4">
+            <Auto64 className="w-full h-full" />
+            <Auto65 className="w-full h-full" />
+            <Auto66 className="w-full h-full" />
+            <Auto67 className="w-full h-full" />
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className=" mb-8">
+          <h2 className="text-xl font-semibold text-[#F22E5D]">Project Takeaways</h2>
+          <p className="introduction font-bold max-w-[721px]">A deeper understanding of ideas when placed within context, and not just in vacuums. </p>
+
+          <div className="mt-6 bg-[#FAFAFA] md:p-16 p-4 text-base font-medium text-[#454545]">
+            <p>
+              Initially, the project aimed to help vehicle owners finance their repairs through an auto credit application. However, user testing revealed additional challenges
+              such as pricing uncertainty, finding reliable auto-technicians, and the need for updates and follow-ups. As a result, we expanded the app's scope to address these
+              issues and provide comprehensive solutions for vehicle owners.
+              <br />
+              <br />
+              Contextual insights and user interviews played a crucial role in identifying valuable opportunities and ideas during the generation phase.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 };

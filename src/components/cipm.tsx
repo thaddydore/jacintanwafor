@@ -61,7 +61,7 @@ const CIPM = () => {
 
         </section>
 
-        <section className="xl:px-[300px] md:px-32 px-8 ">
+        <section className="screen300 ">
             <p className="text-[#454545] text-base">
               {" "}
               <span className="font-semibold"> CIPM Membership Portal</span> is one of my projects as a product designer in <span className="font-semibold"> Cyberspace,</span>{" "}

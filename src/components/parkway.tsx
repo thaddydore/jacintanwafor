@@ -28,7 +28,7 @@ const ParkWay = () => {
 
          
         </section>
-        <section className="xl:px-[300px] md:px-32 px-8">
+        <section className="screen300">
             <p className="text-[#454545] text-base">
               {" "}
               <span className="font-semibold">Financial app for Parkway Microfinance Bank</span> is one of my projects as a product designer in{" "}

@@ -33,7 +33,7 @@ const MealManager = () => {
         />
       </section>
 
-      <section className="xl:px-[300px] md:px-32 px-8">
+      <section className="screen300">
         <p className="text-[#C2C8CB] text-base">
         At Cyberspace, I led the design of an innovative application aimed at addressing meal management challenges within the organization. This is called ‘Meal Manager’
         </p>

@@ -27,7 +27,7 @@ const SettlementAutomation = () => {
  
           
          </section>
-         <section className="xl:px-[300px] md:px-32 px-8">
+         <section className="screen300">
              <p className="text-[#454545] text-base">
                {" "}
                As a product designer at Cyberspace, I led the development of <span className="font-semibold">Automated Settlement,</span> a project focused on <span className="font-semibold">seamlessly verifying transactions and initiating settlements.</span>

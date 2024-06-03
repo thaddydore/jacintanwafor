@@ -27,7 +27,7 @@ const IdentityPass = () => {
 
          
         </section>
-        <section className="xl:px-[300px] md:px-32 px-8">
+        <section className="screen300">
             <p className="text-[#454545] text-base">
               {" "}
               At Cyberspace, I contributed to the development of the   <span className="font-semibold">CyberPay Verification Portal</span> as a product designer. This platform was designed to   <span className="font-semibold">verify user identities and gain real-time insights</span> to prevent fraud effectively.

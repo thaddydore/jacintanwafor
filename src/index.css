@@ -29,7 +29,7 @@ p, h1, div{
 }
 
 .section{
-  @apply xl:px-[300px] md:py-20 py-6 px-10 md:px-32
+  @apply xl:px-[300px] md:py-20 py-6 px-4 md:px-32
 }
 .font-Fraunces{
   font-family: "Fraunces", serif; 
@@ -73,7 +73,15 @@ p, h1, div{
 .text28{
   @apply md:text-[28px] text-sm font-Fraunces text-[#454545];
 }
-
+.textMediumBase{
+  @apply md:text-base text-sm text-[#454545] pt-6 font-medium;
+}
+.screen300{
+  @apply xl:px-[300px] md:px-32 px-4;
+}
+.section2{
+  @apply xl:px-[284px] px-4 md:px-32;
+}
 
 
 

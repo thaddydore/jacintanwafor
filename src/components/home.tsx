@@ -54,9 +54,9 @@ const Home = () => {
       <main className="w-full">
         <section className="section">
           <div className="relative max-w-[790px]">
-            <Ace className="absolute -z-10 top-[85%] left-[-5%] md:block hidden" />
-            <Uniquely className="absolute -z-10 top-[25%] md:left-[90%]  md:block hidden" />
-            <Spiral className="absolute top-[-2%] md:left-[75%] -z-10 md:block hidden" />
+            <Ace className="absolute -z-10 top-[83%] left-[-5%] md:block hidden" />
+            <Uniquely className="absolute z-10 top-[25%] md:left-[94%]  md:block hidden" />
+            <Spiral className="absolute top-[-2%] md:left-[65%] -z-10 md:block hidden" />
             <Star className="absolute z-10 left-[-4%] md:block hidden" />
             <div className="text-start">
               <p className="md:text-[60px] text-3xl md:leading-[86px] relative md:max-w-[781px] text-start">

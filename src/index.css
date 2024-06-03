@@ -70,6 +70,9 @@ p, h1, div{
 .biggerFontFraunces{
   @apply md:text-[66px] md:leading-[76px] text-3xl font-semibold font-Fraunces
 }
+.text28{
+  @apply md:text-[28px] text-sm font-Fraunces text-[#454545];
+}
 
 
 

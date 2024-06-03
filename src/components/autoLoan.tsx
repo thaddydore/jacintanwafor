@@ -39,6 +39,8 @@ import { ReactComponent as Auto40 } from "../assets/svg/auto-40.svg";
 import { ReactComponent as Auto41 } from "../assets/svg/auto-41.svg";
 import { ReactComponent as Auto42 } from "../assets/svg/auto-42.svg";
 import { ReactComponent as Auto43 } from "../assets/svg/auto-43-compressed.svg";
+import { ReactComponent as Auto44 } from "../assets/svg/auto-44.svg";
+import { ReactComponent as Auto45 } from "../assets/svg/auto-45.svg";
 import { ReactComponent as Bullet } from "../assets/svg/bullet.svg";
 import { ReactComponent as Carbon } from "../assets/svg/carbon.svg";
 import { ReactComponent as Renmoney } from "../assets/svg/renmoney.svg";
@@ -70,9 +72,9 @@ const Avatar = require("../assets/png/avatar.png");
 const Avatar2 = require("../assets/png/avatar-2.png");
 
 const AutoLoan = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top when the component mounts
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0); // Scroll to the top when the component mounts
+  // }, []);
   return (
     <main>
       <section className="pt-28">
@@ -266,7 +268,7 @@ const AutoLoan = () => {
 
         <div className="md:mt-12 mt-6 max-w-[726px]">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Support for emergency days</h2>
-          <p className="introduction font-bold">Flexible repayment schedule and smart savings with wallet.</p>
+          <p className="introduction font-bold max-w-[721px]">Flexible repayment schedule and smart savings with wallet.</p>
           <p className="text-base text-[#454545] pt-6 font-medium">
             Flickwheel gives freedom to choose a repayment plan that aligns with your budget and financial capabilities, allowing a smooth and convenient repayment experience.
             Flickwheel also allows you to effortlessly save up gradually, putting aside funds for future or unexpected vehicle repairs.
@@ -308,7 +310,7 @@ const AutoLoan = () => {
 
         <div className="md:mt-28 mt-12 mb-8">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Researching Problem Space</h2>
-          <p className="introduction font-bold">
+          <p className="introduction font-bold max-w-[721px]">
             Subject-matter research has revealed the impactful utilisation of the 'Hook' model to increase people’s need for vehicle repairs in forming habits.
           </p>
           <p className="text-base text-[#454545] pt-6">
@@ -325,7 +327,7 @@ const AutoLoan = () => {
         <div className="bg-[#FAFAFA] xl:px-[100px] md:px-8 px-4  md:py-32 py-8 w-full">
           <div className=" mb-8">
             <h2 className="text-xl font-semibold text-[#F22E5D]">Analysing Market & Competitors</h2>
-            <p className="introduction font-bold">Competitive analysis revealed an indirect market competing on identical feature set.</p>
+            <p className="introduction font-bold max-w-[721px]">Competitive analysis revealed an indirect market competing on identical feature set.</p>
             <p className="text-base text-[#454545] pt-6">
               Upon examining the leading players in the industry, we observed a common feature focus on Interest Rate within their apps. Recognising this, we used Interest Rate
               could serve as a key driver for habit formation. However, we also identified an opportunity to differentiate ourselves by taking a distinct approach.
@@ -351,7 +353,7 @@ const AutoLoan = () => {
             <KlarnaScreens className="w-full h-full" />
           </div>
 
-          <p className="text-center font-semibold text-[#454545] md:text-[28px] md:leading-10 text-lg font-Fraunces mt-20">
+          <p className="text-center font-semibold md:leading-10 text28 mt-20">
             With all these products already available, why do people still struggle to handle vehicle emergencies?{" "}
           </p>
         </div>
@@ -376,7 +378,7 @@ const AutoLoan = () => {
           <img src={Auto39} alt="gradient-img" className="w-full h-full" />
         </div>
 
-        <p className="text-center text-[#454545] md:text-[28px] md:leading-10 text-lg font-Fraunces mt-20">
+        <p className="text-center md:leading-10 text-lg mt-20 text28">
           The biggest theme we discovered was around the process of vehicle repairs, or more precisely the level of expertise. As granting of loan is required, auto - technicians{" "}
           <span className="font-bold">puts less effort in fixing vehicles.</span>
         </p>
@@ -473,7 +475,7 @@ const AutoLoan = () => {
       <section className="section">
         <div className=" mb-8">
           <h2 className="text-xl font-semibold text-[#F22E5D]">User Storyboarding</h2>
-          <p className="introduction font-bold">Setting the persona in an ideal context scenario to define the essentials of our MVP.</p>
+          <p className="introduction font-bold max-w-[721px]">Setting the persona in an ideal context scenario to define the essentials of our MVP.</p>
           <p className="text-base text-[#454545] pt-6">
             Our main objective now is to identify the essential design requirements that need to be fulfilled to enable these ideal scenarios. These requirements will serve as the
             foundation for our idea generation phase.
@@ -559,20 +561,49 @@ const AutoLoan = () => {
         <div className="flex justify-center md:gap-24 gap-5 items-center">
           <div className="flex flex-col md:gap-20 gap-4 items-center">
             <Machine1 className="w-full h-full" />
-            <p className="md:text-[28px] text-sm font-Fraunces text-[#454545]">1 day of goal (vehicle repair)</p>
+            <p className="text28">1 day of goal (vehicle repair)</p>
           </div>
           <div className="flex flex-col md:gap-16 gap-4 items-center">
             <Machine2 className="w-full h-full" />
-            <p className="md:text-[28px] text-sm font-Fraunces text-[#454545]">3 months of goals (routine)</p>
+            <p className="text28">3 months of goals (routine)</p>
           </div>
         </div>
 
-<div className="w-full text-center flex justify-center flex-col mt-20 items-center gap-10" data-aos="fade-right">
- <h1 className="text-center introductionwithoutpadding font-bold max-w-[313px]"> Eventually, a whole healthy vehicle</h1>
- <Car className="w-full h-full"/>
-</div>
-       
+        <div className="w-full text-center flex justify-center flex-col mt-20 items-center gap-10" data-aos="fade-right">
+          <h1 className="text-center introductionwithoutpadding font-bold max-w-[313px]"> Eventually, a whole healthy vehicle</h1>
+          <Car className="w-full h-full" />
+        </div>
       </section>
+
+      <section className="section">
+        <div className=" mb-8">
+          <h2 className="text-xl font-semibold text-[#F22E5D]">Feature Prioritisation</h2>
+          <p className="introduction font-bold max-w-[721px]">Resource limitations compelled us to prioritise features based on their impact and required effort.</p>
+          <p className="text-base text-[#454545] pt-6">
+          To accommodate a shorter timeframe and ensure technical feasibility, we divided our initial feature sets into three release stages. The first stage, which focused on the minimum viable product (MVP), prioritised features that required low effort but delivered high impact. This decision was made through a combination of an initial voting system, cross-discipline workshops, and continuous reference to our persona's pain points and characteristics.
+          </p>
+        </div>
+      </section>
+
+      <section className="xl:px-[284px] px-10 md:px-32 w-full">
+        <Auto44 className="w-full h-full"/>
+        </section>
+
+        <section className="section">
+        <div className=" mb-8">
+          <h2 className="text-xl font-semibold text-[#F22E5D]">Technical Blueprint</h2>
+          <p className="introduction font-bold max-w-[721px]">Creating user flow by putting our persona into consideration, in order to simplify steps and time.</p>
+          <p className="text-base text-[#454545] pt-6">
+          We carefully designed the user experience to prioritise our users' most important tasks, minimising the number of steps required to achieve their primary use cases. By understanding that our users are often multitasking and requesting for vehicle repairs, we strategically streamlined the app's interface, hiding secondary functions to ensure users can engage with the app efficiently and with minimal distractions.
+          </p>
+        </div>
+      </section>
+
+      <section className="xl:px-[284px] px-10 md:px-32 w-full">
+        <Auto45 className="w-full h-full"/>
+        <p className="text28">I want to able to request and track my vehicle repairs quickly</p>
+        </section>
+
     </main>
   );
 };

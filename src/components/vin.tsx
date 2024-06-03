@@ -235,7 +235,7 @@ const Vin = () => {
         <h1 className="text-center text-xl font-semibold text-[#F22E5D]">DEFINING A PRODUCT FEATURE</h1>
         <div className="md:mt-12 mt-6">
           <h2 className="text-xl font-semibold text-[#F22E5D]">The diverse users of VIN Check</h2>
-          <p className="introduction font-bold">Crafting the problem statements for our different levels of end-users and their journeys</p>
+          <p className="introduction font-bold max-w-[720px]">Crafting the problem statements for our different levels of end-users and their journeys</p>
           <p className="text-base text-[#454545] pt-6">
             Based on our initial user research, the <i>VIN Check</i> feature would most likely be used by vehicle owners and auto-technicians to gather information about a certain
             vehicle. We therefore not only had to consider only the direct users (vehicle owners), but also our users’s technicians (auto - technicians) as our end - users, with
@@ -289,7 +289,7 @@ const Vin = () => {
       <section className="section">
         <div className="md:mt-12 mt-6">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Defining and prioritising solutions</h2>
-          <p className="introduction font-bold">Exploring user roles within personas to further define the scope of our MVP.</p>
+          <p className="introduction font-bold max-w-[605px]">Exploring user roles within personas to further define the scope of our MVP.</p>
           <p className="text-base text-[#454545] pt-6">
             Moving into a team brainstorming session, we grouped and prioritised users needs in order of importance. We formed the project goals and transformed our goals into
             specific user tasks, enabling our engineering team to anticipate potential technical limitations associated with each proposed solution.
@@ -361,7 +361,7 @@ const Vin = () => {
       <section className="bg-[#FAFAFA] section">
         <div className="">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Designing for a reliable VIN check feature</h2>
-          <p className="introduction font-bold">Maintaining ease of use and feasibility through careful consideration of integration.</p>
+          <p className="introduction font-bold max-w-[605px]">Maintaining ease of use and feasibility through careful consideration of integration.</p>
           <p className="text-base text-[#454545] pt-6">
             Through the ideation phase, we placed high importance on accurate and comprehensive information, covering a wide range of vehicle makes, models, and years. Considering
             the pricing rate and managing online transactions globally.
@@ -412,7 +412,7 @@ const Vin = () => {
       <section className="section">
         <div className="md:mt-12 mt-6">
           <h2 className="text-xl font-semibold text-[#F22E5D]">Analysing user flows into organised and structured approach </h2>
-          <p className="introduction font-bold">A product flow for both end-users, with an enhanced end-to-end experience. </p>
+          <p className="introduction font-bold max-w-[605px]">A product flow for both end-users, with an enhanced end-to-end experience. </p>
           <p className="text-base text-[#454545] pt-6">
             To ensure that Trophie is able to provide a full, seamless, and robust experience, we had to identify and solutionise the touch-points where Trophie could empower our
             users to complete their goals, which was greatly assisted through our user jobs. This covers all the way from managers first getting informed about the new Sponsorship
@@ -487,7 +487,7 @@ const Vin = () => {
       <section className="section">
         <div className="md:mt-12 mt-6">
           <h2 className="text-xl font-semibold text-[#F22E5D]">IMPACT </h2>
-          <p className="introduction font-bold">Enabling a direct connection between vehicle’s history and their owners.</p>
+          <p className="introduction font-bold max-w-[605px]">Enabling a direct connection between vehicle’s history and their owners.</p>
           <p className="text-base text-[#454545] pt-6">
             This direct connection empowers vehicle owners and auto technicians with valuable insights into their vehicle's past, providing them with the necessary information to
             make informed decisions and deliver efficient services.

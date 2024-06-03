@@ -53,10 +53,10 @@ const Home = () => {
       <Header />
       <main className="w-full">
         <section className="section">
-          <div className="relative">
+          <div className="relative max-w-[790px]">
             <Ace className="absolute -z-10 top-[85%] left-[-5%] md:block hidden" />
-            <Uniquely className="absolute -z-10 top-[25%] left-[80%] md:block hidden" />
-            <Spiral className="absolute top-[-2%] left-[67%] -z-10 md:block hidden" />
+            <Uniquely className="absolute -z-10 top-[25%] md:left-[90%]  md:block hidden" />
+            <Spiral className="absolute top-[-2%] md:left-[75%] -z-10 md:block hidden" />
             <Star className="absolute z-10 left-[-4%] md:block hidden" />
             <div className="text-start">
               <p className="md:text-[60px] text-3xl md:leading-[86px] relative md:max-w-[781px] text-start">
@@ -70,42 +70,42 @@ const Home = () => {
 
         <section className="section flex flex-col md:gap-24 gap-6" data-aos="fade-up">
           <div className=" flex md:flex-row flex-col md:gap-10 gap-4 items-center">
-            <Link to={"/vin"} data-aos="fade-up-right" className="hover:animate-pulse hover:skew-x-2">
-              <img src={FlickWheel} alt="flick-wheel" />
+            <Link to={"/vin"} data-aos="fade-up-right" className="hover:animate-pulse hover:skew-x-2 w-full">
+              <img src={FlickWheel} alt="flick-wheel" className="w-full h-full"/>
               <h1 className="text-lg font-semibold text-[#061818]">Vehicle’s history with just VIN</h1>
               <p className="text-[#454545] text-base">Flickwheel / 2023</p>
             </Link>
-            <Link to={"/auto-loan"} className="" data-aos="fade-up-left">
-              <img src={VehicleRepairs} alt="vehicle-repairs" />
+            <Link to={"/auto-loan"} className="w-full" data-aos="fade-up-left">
+              <img src={VehicleRepairs} alt="vehicle-repairs" className="w-full h-full" />
               <h1 className="text-lg font-semibold text-[#061818]">Auto-loan for car repairs</h1>
               <p className="text-[#454545] text-base">Flickwheel / 2022</p>
             </Link>
           </div>
 
           <div data-aos="fade-right">
-            <Link to={"/cipm"}>
-              <img src={CIPM} alt="cipm" />
+            <Link to={"/cipm"} className="w-full">
+              <img src={CIPM} alt="cipm" className="w-full h-full"/>
               <h1 className="text-lg font-semibold text-[#061818]">Regulatory body for HR professionals</h1>
               <p className="text-[#454545] text-base">CIPM Nigeria / 2023</p>
             </Link>
           </div>
 
-          <div className="flex md:flex-row flex-col md:gap-10 gap-4">
-            <Link to={"/quantum-zenith"} data-aos="fade-up-right">
-              <img src={QuantumZenith} alt="quantum-zenith" />
+          <div className="flex md:flex-row flex-col md:gap-10 gap-4 w-full">
+            <Link to={"/quantum-zenith"} data-aos="fade-up-right" className="w-full">
+              <img src={QuantumZenith} alt="quantum-zenith" className="w-full h-full"/>
               <h1 className="text-lg font-semibold text-[#061818]">Make Investments</h1>
               <p className="text-[#454545] text-base">Zenith Bank / 2022</p>
             </Link>
-            <Link to={"/parkway"} className="">
-              <img src={Parkway} alt="parkway" data-aos="fade-up-left" />
+            <Link to={"/parkway"} className="w-full">
+              <img src={Parkway} alt="parkway" data-aos="fade-up-left" className="w-full h-full"/>
               <h1 className="text-lg font-semibold text-[#061818]">Transfer funds and mobile top-ups</h1>
               <p className="text-[#454545] text-base">Parkway Microfinance Bank / 2023</p>
             </Link>
           </div>
 
           <div data-aos="fade-left">
-            <Link to={"/heartfelt"}>
-              <img src={HeartFelt} alt="heart-felt" />
+            <Link to={"/heartfelt"} className="w-full">
+              <img src={HeartFelt} alt="heart-felt" className="w-full h-full"/>
               <h1 className="text-lg font-semibold text-[#061818]">Purchase and send gift cards</h1>
               <p className="text-[#454545] text-base">Heartfelt / 2022</p>
             </Link>

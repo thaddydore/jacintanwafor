@@ -9,7 +9,7 @@ import { ReactComponent as LinkedIn } from "../assets/svg/linked-in.svg";
 import { ReactComponent as Twitter } from "../assets/svg/twitter.svg";
 import { ReactComponent as Mail } from "../assets/svg/mail.svg";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./main.module.css";
 import { ReactComponent as Chisom } from "../assets/svg/chisom.svg";
 import Header from "./header";
@@ -26,30 +26,40 @@ const MealManager = require("../assets/png/meal-manager.png");
 const Payments = require("../assets/png/payment.png");
 
 const Home = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [backgroundColor, setBackgroundColor] = useState("white");
+  const [color, setColor] = useState("#061818");
+  const [pageBackgroundColor, setPageBackgroundColor] = useState('white');
+
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top when the component mounts
   }, []);
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollTop = window.scrollY;
-  //   //   if (scrollTop > 50) { // Change 100 to the scroll position where you want the color change to occur
-  //   //     setIsScrolled(true);
-  //   //   } else {
-  //   //     setIsScrolled(false);
-  //   //   }
-  //   };
 
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
+  const targetRef = useRef(null);
 
-  // console.log(isScrolled);
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+      const halfwayPoint = document.documentElement.scrollHeight / 2;
+      
+      if (scrollPosition >= halfwayPoint) {
+        setPageBackgroundColor('#141617'); // New background color for the entire page
+        setColor('white'); // New color for the entire page
+      } else {
+        setPageBackgroundColor('white'); 
+        setColor('#141617'); // New color for the entire page
+     
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <section className="font-Inter">
+    <section className="font-Inter page" style={{ backgroundColor: pageBackgroundColor, color:color }}>
       <Header />
       <main className="w-full">
         <section className="section">
@@ -71,49 +81,49 @@ const Home = () => {
         <section className="section flex flex-col md:gap-24 gap-6" data-aos="fade-up">
           <div className=" flex md:flex-row flex-col md:gap-10 gap-4 items-center">
             <Link to={"/vin"} data-aos="fade-up-right" className="hover:animate-pulse hover:skew-x-2 w-full">
-              <img src={FlickWheel} alt="flick-wheel" className="w-full h-full"/>
-              <h1 className="text-lg font-semibold text-[#061818]">Vehicle’s history with just VIN</h1>
+              <img src={FlickWheel} alt="flick-wheel" className="w-full h-full" />
+              <h1 className="text-lg font-semibold text-[#061818]" style={{color:color}}>Vehicle’s history with just VIN</h1>
               <p className="text-[#454545] text-base">Flickwheel / 2023</p>
             </Link>
             <Link to={"/auto-loan"} className="w-full" data-aos="fade-up-left">
               <img src={VehicleRepairs} alt="vehicle-repairs" className="w-full h-full" />
-              <h1 className="text-lg font-semibold text-[#061818]">Auto-loan for car repairs</h1>
+              <h1 className="text-lg font-semibold text-[#061818]" style={{color:color}}>Auto-loan for car repairs</h1>
               <p className="text-[#454545] text-base">Flickwheel / 2022</p>
             </Link>
           </div>
 
           <div data-aos="fade-right">
             <Link to={"/cipm"} className="w-full">
-              <img src={CIPM} alt="cipm" className="w-full h-full"/>
-              <h1 className="text-lg font-semibold text-[#061818]">Regulatory body for HR professionals</h1>
+              <img src={CIPM} alt="cipm" className="w-full h-full" />
+              <h1 className="text-lg font-semibold text-[#061818]" style={{color:color}}>Regulatory body for HR professionals</h1>
               <p className="text-[#454545] text-base">CIPM Nigeria / 2023</p>
             </Link>
           </div>
 
-          <div className="flex md:flex-row flex-col md:gap-10 gap-4 w-full">
+          <div className="flex md:flex-row flex-col md:gap-10 gap-4 w-full" >
             <Link to={"/quantum-zenith"} data-aos="fade-up-right" className="w-full">
-              <img src={QuantumZenith} alt="quantum-zenith" className="w-full h-full"/>
-              <h1 className="text-lg font-semibold text-[#061818]">Make Investments</h1>
+              <img src={QuantumZenith} alt="quantum-zenith" className="w-full h-full" />
+              <h1 className="text-lg font-semibold text-[#061818]" style={{color:color}}>Make Investments</h1>
               <p className="text-[#454545] text-base">Zenith Bank / 2022</p>
             </Link>
             <Link to={"/parkway"} className="w-full">
-              <img src={Parkway} alt="parkway" data-aos="fade-up-left" className="w-full h-full"/>
-              <h1 className="text-lg font-semibold text-[#061818]">Transfer funds and mobile top-ups</h1>
+              <img src={Parkway} alt="parkway" data-aos="fade-up-left" className="w-full h-full" />
+              <h1 className="text-lg font-semibold text-[#061818]" style={{color:color}}>Transfer funds and mobile top-ups</h1>
               <p className="text-[#454545] text-base">Parkway Microfinance Bank / 2023</p>
             </Link>
           </div>
 
           <div data-aos="fade-left">
             <Link to={"/heartfelt"} className="w-full">
-              <img src={HeartFelt} alt="heart-felt" className="w-full h-full"/>
-              <h1 className="text-lg font-semibold text-[#061818]">Purchase and send gift cards</h1>
+              <img src={HeartFelt} alt="heart-felt" className="w-full h-full" />
+              <h1 className="text-lg font-semibold text-[#061818]" style={{color:color}}>Purchase and send gift cards</h1>
               <p className="text-[#454545] text-base">Heartfelt / 2022</p>
             </Link>
           </div>
         </section>
 
-        <section className={`section ${isScrolled ? styles.scrolled : ""}`} onScroll={() => setIsScrolled(true)}>
-          <div className="relative  max-w-[437px] lg:ms-20">
+        <section className="section color-change-div" >
+          <div className="relative  max-w-[437px] lg:ms-20" ref={targetRef}>
             <CurvedArrow className="absolute z-10 top-[54%] left-[90%] md:block hidden" />
             {/* <Spiral className="absolute bottom-[10%] left-[62%] z-10" /> */}
             <Star2 className="absolute z-10 top-[3%] left-[-6%] md:block hidden" />
@@ -125,7 +135,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="section bg-[#141617] grid md:grid-cols-2 gap-[50px]" data-aos="fade-up">
+        <section className="section bg-[#141617] grid md:grid-cols-2 gap-[50px]"  ref={targetRef}>
           <div data-aos="fade-right">
             <Link to={"/cyberpay/merchant"}>
               <img src={Mandates} alt="mandates" />
